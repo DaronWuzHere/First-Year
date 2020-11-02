@@ -1,0 +1,5 @@
+#!/bin/bash
+set -v
+java FieldPerimeter 10 20
+java FieldPerimeter -10 -20
+java FieldPerimeter ten twenty

@@ -1,0 +1,91 @@
+-------------------------------------------------------------------------------
+First: checking your Mutt configuration.
+
+Good: file /home/z20375dm/.muttrc exists.
+Good: file /home/z20375dm/.muttrc does NOT still contain
+      `set my_user_name="firstname.secondname@student.manchester.ac.uk"'
+Good: file /home/z20375dm/.muttrc contains
+     set my_user_name="daronhil.mauricette@student.manchester.ac.uk"
+Good: file /home/z20375dm/.muttrc does NOT still contain
+      `set my_imap_server_name=[SERVERNAME].outlook.com'
+Good: file /home/z20375dm/.muttrc contains
+     set my_imap_server_name=outlook.office365.com
+Good: file /home/z20375dm/.muttrc does NOT still contain
+      `set realname = "Real Name"'
+Good: file /home/z20375dm/.muttrc contains
+     set realname = "Daronhil Mauricette"
+Good: file /home/z20375dm/.muttrc contains
+     set realname = "Daronhil Mauricette"
+Good: file /home/z20375dm/.muttrc contains
+     set imap_user = $my_user_name
+Good: file /home/z20375dm/.muttrc contains
+     set from = $my_user_name
+Good: file /home/z20375dm/.muttrc contains
+     set folder = "imaps://$my_imap_server_name:993"
+Good: file /home/z20375dm/.muttrc contains
+     set spoolfile = "+INBOX"
+Good: file /home/z20375dm/.muttrc contains
+     set smtp_url = "smtp://$my_user_name@$my_imap_server_name:587"
+
+This seems okay as long as you can send and receive email using mutt
+and your name is correct above.
+
+-------------------------------------------------------------------------------
+Second: checking your ARCADE authentication.
+
+Good: file /home/z20375dm/.ARCADE/serverAuthentication exists.
+
+This seems okay as long as you can check your ARCADE details
+using the arcade command.
+
+-------------------------------------------------------------------------------
+Third: checking your csstartx in ~/.bash_profile.
+
+Good: file /home/z20375dm/.bash_profile exists.
+Good: file /home/z20375dm/.bash_profile contains
+     case $(tty) in
+Good: file /home/z20375dm/.bash_profile contains
+     /dev/tty1) exec /opt/teaching/bin/csstartx
+Good: file /home/z20375dm/.bash_profile contains
+     esac
+
+This seems okay as long as those lines, in that order, are the last in the file.
+
+-------------------------------------------------------------------------------
+Fourth: checking your $PATH.
+
+...:/opt/teaching/bin:/opt/common/bin:/opt/scripts:/home/z20375dm/bin
+
+This seems okay.
+
+-------------------------------------------------------------------------------
+Fifth: checking your Thunderbird settings.
+
+Good: file /home/z20375dm/.thunderbird/9qc8x98i.default/prefs.js exists.
+*******************************************************************************
+THIS LOOKS BAD!
+
+    File /home/z20375dm/.thunderbird/9qc8x98i.default/prefs.js does not 
+    contain a match for
+    `user_pref("mail.server.server[1-9].hostname", ".*outlook.*com");'.
+    This suggests you have not set up your office 365 account.
+
+Refer to section 2.11 of the introductory lab notes.
+*******************************************************************************
+
+PRESS ENTER TO CONTINUE: 
+*******************************************************************************
+This script found 1 thing(s) which seem to be BAD.
+
+Please resolve these by looking back at the relevant sections of the
+introductory notes, as listed above.
+
+If you have difficulty doing that, please ask for assistance from a
+demonstrator or member of staff when you are next in a scheduled lab.
+
+After you have resolved the problems, please run this checker again.
+This is to ensure you have fixed the problems reported, but also because some
+of them may have been hiding others.
+
+    /opt/teaching/bin/check-my-setup
+

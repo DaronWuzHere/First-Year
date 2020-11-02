@@ -1,0 +1,15 @@
+#!/bin/bash
+set -v
+
+java StreetOrder
+java StreetOrder saint-lucia.txt
+java StreetOrder hello.txt
+java StreetOrder saint-lucia.txt ../task20.8/saint-lucia-order.txt
+java StreetOrder saint-lucia.txt ~/saint-lucia-order.txt
+java StreetOrder null.txt new-null.txt
+java StreetOrder one-odd.txt saint-lucia-order.txt
+java StreetOrder two-houses.txt new-two-houses.txt
+java StreetOrder three-houses.txt new-three-houses.txt
+java StreetOrder four-houses.txt new-four-houses.txt
+java StreetOrder five-houses.txt new-five-houses.txt
+java StreetOrder six-houses.txt new-six-houses.txt

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -v
+java DuplicateVoters voting.txt hello.txt
+cat hello.txt

@@ -1,0 +1,40 @@
+KMD
+00000000:             ; ; Hello Someone program - version 1
+00000000:             ; 
+00000000:             ;         
+00000000:             ; 
+00000000:             ; 
+00000000: E28F001C    ; main    ADR     R0, hello       ; System.out.print("Hello ");
+00000004: EF000003    ;         SVC     3
+00000008:             ; 
+00000008:             ;         ; while (R0 != 10) {// translate to ARM code; 
+00000008:             ; 
+00000008: EF000001    ; loop    SVC     1               ; input a character to R0
+0000000C: EF000000    ;         SVC     0               ; output the character in R0
+00000010:             ; 
+00000010: E350000A    ;         CMP     R0, #10        
+00000014: 1AFFFFFB    ;         BNE     loop
+00000018:             ;         
+00000018:             ; 
+00000018:             ;         ; }// translate to ARM code
+00000018:             ; 
+00000018: E28F000B    ;         ADR     R0, goodbye     ; System.out.println("and good-bye!");
+0000001C: EF000003    ;         SVC     3
+00000020:             ; 
+00000020: EF000002    ;         SVC     2               ; stop the program
+00000024:             ; 
+00000024:             ; 
+00000024: 48 65 6C 6C ; hello   DEFB    "Hello \0"
+00000028: 6F 20 00    ; 
+0000002B: 61 6E 64 20 ; goodbye DEFB    "and good-bye!\n\0"
+0000002F: 67 6F 6F 64 ; 
+00000033: 2D 62 79 65 ; 
+00000037: 21 0A 00    ; 
+0000003C:             ;         ALIGN
+0000003C:             ; 
+
+Symbol Table: Labels
+: main                              00000000  Local -- ARM
+: loop                              00000008  Local -- ARM
+: hello                             00000024  Local -- ARM
+: goodbye                           0000002B  Local -- ARM

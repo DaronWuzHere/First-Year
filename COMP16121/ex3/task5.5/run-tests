@@ -1,0 +1,6 @@
+!#/bin/bash
+set -v
+java MinimumBitWidth 1
+java MinimumBitWidth 2
+java MinimumBitWidth 4
+java MinimumBitWidth 10

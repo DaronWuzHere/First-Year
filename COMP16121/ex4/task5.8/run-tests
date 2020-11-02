@@ -1,0 +1,5 @@
+!#/bin/bash
+set -v
+java SinTable 0 10 90
+java SinTable 0 5 10
+java SinTable 180 30 360

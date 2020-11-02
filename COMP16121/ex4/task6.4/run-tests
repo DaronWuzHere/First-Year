@@ -1,0 +1,6 @@
+!#/bin/bash
+set -v
+java PrintHoledRectangle 9 9
+java PrintHoledRectangle 5 4
+java PrintHoledRectangle 4 4 
+java PrintHoledRectangle 4 5

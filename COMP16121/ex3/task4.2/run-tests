@@ -1,0 +1,5 @@
+!#/bin/bash
+set -v
+java MaxTwoDoubles 10 20
+java MaxTwoDoubles 10 5
+jave MaxTwoDOubles 5 5

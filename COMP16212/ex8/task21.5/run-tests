@@ -1,0 +1,9 @@
+#!/bin/bash
+set -v
+java StreetOrder oneOrder.txt newOrderOne.txt
+cat newOrderOne.txt
+java StreetOrder anotherOrder.txt newOrderTwo.txt
+cat newOrderTwo.txt
+java StreetOrder lastOrder.txt newOrderThree.txt
+cat newOrderThree.txt
+

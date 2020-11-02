@@ -1,0 +1,25 @@
+
+Course is -INTRO, Exercise is ex4.
+Running `check-submit' command on server...
+. .  adding: check-my-setup-17-09-29--14-57-58 (deflated 71%)
+  adding: check-my-setup-17-09-29--15-11-31 (deflated 71%)
+  adding: check-my-setup-17-09-29--15-13-55 (deflated 69%)
+  adding: check-my-setup-17-09-29--15-27-01 (deflated 75%)
+ 
+
+Building local zip file...
+Running `submit' command on server...
+. . 
+Submission made on:
+-rw-r----- 1 arcade uglab 4805 Sep 29 15:27 z20375dm.zip
+Submission contains:
+Archive:  z20375dm.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     3142  09-29-2017 14:59   check-my-setup-17-09-29--14-57-58
+     3882  09-29-2017 15:12   check-my-setup-17-09-29--15-11-31
+     3662  09-29-2017 15:13   check-my-setup-17-09-29--15-13-55
+     3476  09-29-2017 15:27   check-my-setup-17-09-29--15-27-01
+---------                     -------
+    14162                     4 files
+

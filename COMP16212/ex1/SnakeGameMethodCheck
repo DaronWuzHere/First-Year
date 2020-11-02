@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cp -i /opt/info/courses/COMP16212/ex1/GameMethodTest.java .
+
+exec javac -classpath .:/opt/info/courses/COMP16212/ex1/Snake.jar GameMethodTest.java 

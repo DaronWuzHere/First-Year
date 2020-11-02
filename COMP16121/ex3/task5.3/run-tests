@@ -1,0 +1,5 @@
+!#/bin/bash
+set-v
+java LargestSquare 10
+java LargestSquare 30
+java LargestSquare 90785

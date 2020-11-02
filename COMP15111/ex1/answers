@@ -1,0 +1,10 @@
+Q1) After obeying LDR R0 instruction, the value of PC is 00000004 and of R0 is 00000000
+Q2) After obeying LDR R1 instruction, the value of PC is 00000008 and of R1 is 00000004
+Q3) After obeying LDR R2 instruction, the value of PC is 0000000C and of R2 is 00000003
+Q4) The first time the ADD instruction is obeyed, the value of register 0 changes from 00000000 to 00000004
+Q5) The first time the SUB instruction is obeyed, the value of register 2 changes from 00000003 to 00000002
+Q6) the BNE instruction is obeyed 3 times but only performs the branch 2 times
+Q7) register R2 counts down from 00000003 to 00000000
+Q8) register R0 is modified to be sum of memory locations R0 and R1
+Q9) The memory location for "tom" turns red because the contents of the source code do not match the memory location
+Q10)Tom is still red but more registers have been added to the instructions because the program cannot load the data from the memory location

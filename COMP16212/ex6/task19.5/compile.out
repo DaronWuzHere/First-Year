@@ -1,0 +1,18 @@
+TestMoodyGroup.java:2: error: class MoodyGroup is public, should be declared in a file named MoodyGroup.java
+public class MoodyGroup<MoodType extends MoodyPerson>
+       ^
+TestMoodyGroup.java:24: error: cannot find symbol
+  public void addPerson(MoodyType newPerson)
+                        ^
+  symbol:   class MoodyType
+  location: class MoodyGroup<MoodType>
+  where MoodType is a type-variable:
+    MoodType extends MoodyPerson declared in class MoodyGroup
+TestMoodyGroup.java:28: error: cannot find symbol
+      MoodyPerson[] largerArray = MoodyPerson[(persons.length 
+                                  ^
+  symbol:   variable MoodyPerson
+  location: class MoodyGroup<MoodType>
+  where MoodType is a type-variable:
+    MoodType extends MoodyPerson declared in class MoodyGroup
+3 errors

@@ -1,0 +1,83 @@
+This what happened after "GET /" was used:
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html>
+<title>Directory listing for /</title>
+<body>
+<h2>Directory listing for /</h2>
+<hr>
+<ul>
+<li><a href="Daron.html">Daron.html</a>
+<li><a href="Daron.html.lp-tmp.ps">Daron.html.lp-tmp.ps</a>
+<li><a href="ex5">ex5@</a>
+<li><a href="favicon.png">favicon.png</a>
+<li><a href="favicon_Aha_icon.ico">favicon_Aha_icon.ico</a>
+<li><a href="football.css">football.css</a>
+<li><a href="Football.css">Football.css</a>
+<li><a href="Football.html">Football.html</a>
+<li><a href="Football.html.lp-tmp.ps">Football.html.lp-tmp.ps</a>
+<li><a href="football.jpg">football.jpg</a>
+<li><a href="HomePage.html">HomePage.html</a>
+<li><a href="HomePage.html.lp-tmp.ps">HomePage.html.lp-tmp.ps</a>
+<li><a href="implementation.css">implementation.css</a>
+<li><a href="Implementation.html">Implementation.html</a>
+<li><a href="Implementation.html.lp-tmp.ps">Implementation.html.lp-tmp.ps</a>
+<li><a href="MyFirst.html">MyFirst.html</a>
+<li><a href="MyFirst.html.lp-tmp.ps">MyFirst.html.lp-tmp.ps</a>
+<li><a href="myHomePageStyle.css">myHomePageStyle.css</a>
+<li><a href="mystyle.css">mystyle.css</a>
+<li><a href="real-madrid-trophy.jpg">real-madrid-trophy.jpg</a>
+<li><a href="SantiagoBernabeu.jpg">SantiagoBernabeu.jpg</a>
+<li><a href="StLucia.jpg">StLucia.jpg</a>
+</ul>
+<hr>
+</body>
+</html>
+
+
+
+
+This is what happened after "GET /Daron.html" was used:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="shortcut icon"
+ href="favicon_Aha_icon.ico" type="image/x-icon">
+
+ <!-- This is the title of the website that appears on the
+      browser's tab -->
+ <title>DARON</title>
+
+ <!--This where information about the page is held -->
+ <meta charset="UTF-8">
+ <meta name="description" content="A website about Daron
+ Mauricette">
+ <meta name="keywords" content="Daron,Daronhil,Mauricette">
+ <meta name="author" content="Daronhil Mauricette">
+
+ <!-- This is the link to the Style Sheet -->
+ <link rel="stylesheet" type ="text/css"
+ href="myHomePageStyle.css">
+
+</head>
+<body>
+
+ <!--This is the clickable heading of the page -->
+ <h1><a href="Daron.html">DARON MAURICETTE<br>
+ HOME PAGE</a></h1>
+ <img src="StLucia.jpg" alt="St Lucia Pitons" width="920">
+ <p> These are mountains from my home country, Saint Lucia!</p>
+
+ <p>This is a website I, Daron Mauricette created for
+  COMP10120!<br>
+ Click on a link to see things I like!<br>
+ <ul class="a">
+   <li><a href="Football.html"> Football</a></li>
+ </ul>
+ <p> More coming soon! </p>
+ <p> How this was made: <br>
+ <a href="Implementation.html">Implementation</a></p>
+
+</body>
+</html>Connection closed by foreign host.
+

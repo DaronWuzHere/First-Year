@@ -1,0 +1,4 @@
+#!/bin/bash
+set -v
+java RandomOrderPuzzle test1.txt
+java RandomOrderPuzzle test2.txt

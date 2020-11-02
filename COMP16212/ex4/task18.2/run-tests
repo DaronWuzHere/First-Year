@@ -1,0 +1,7 @@
+#!/bin/bash
+set -v
+java CheckSum < CheckSum.java
+java CheckSum
+java CheckSum
+java CheckSum
+java CheckSum

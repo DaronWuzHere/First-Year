@@ -1,0 +1,5 @@
+#!/bin/bash
+set -v
+java TimesTable 5 3
+java TimesTable 10 10 
+java TimesTable 12 12

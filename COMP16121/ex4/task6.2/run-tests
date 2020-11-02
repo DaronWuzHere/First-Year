@@ -1,0 +1,8 @@
+!#/bin/bash
+set -v
+java MaxList 1 2 3 4 
+java MaxList 4 3 2 1
+java MaxList 6 5 7 8
+java MaxList 3 8 4 5
+java MaxList 4 5 7 3
+java MaxList 4 4 2 1

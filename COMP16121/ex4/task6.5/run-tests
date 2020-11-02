@@ -1,0 +1,8 @@
+!#/bin/bash
+set -v
+
+java PrintTriangleMirror 4
+java PrintTriangleMirror 5
+java PrintTriangleMirror 8
+java PrintTriangleMirror 10
+java PrintTriangleMirror 7

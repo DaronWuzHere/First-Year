@@ -1,0 +1,7 @@
+#!/bin/bash
+set -v
+java ReverseLines ReverseLines.java new-java.txt
+cat new-java.txt
+
+java ReverseLines test.txt results.txt
+cat results.txt

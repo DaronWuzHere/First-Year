@@ -1,0 +1,3 @@
+#!/bin/bash 
+set -v
+java Birthday Mauricette Daronhil 06/09/1999 

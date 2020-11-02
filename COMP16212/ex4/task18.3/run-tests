@@ -1,0 +1,7 @@
+#!/bin/bash
+set -v
+java WordCount < WordCount.java
+java WordCount
+java WordCount
+java WordCount
+java WordCount

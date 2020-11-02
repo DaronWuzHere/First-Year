@@ -1,0 +1,5 @@
+!#/bin/bash
+set -v
+java Power 5 2
+java Power 10 -2
+java Power 4 0

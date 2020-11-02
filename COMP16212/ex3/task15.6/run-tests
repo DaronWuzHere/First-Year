@@ -1,0 +1,7 @@
+#!/bin/bash
+set -v
+java FishTankVolume -3 -4 -5
+java FishTankVolume -3 3 3 3 3 3
+java FishTankVolume -3 4 5
+java FishTankVolume 3 4 -5
+java FishTankVolume 3 -4 5

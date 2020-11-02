@@ -1,0 +1,5 @@
+#!/bin/bash
+set -v 
+java FahrenheitToCelsius 0
+java FahrenheitToCelsius -10
+java FahrenheitToCelsius 100

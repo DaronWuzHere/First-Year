@@ -1,0 +1,43 @@
+}//Reverse Lines
+  }//Reverse 
+    }//If
+      output.println(tailLine);
+      reverse(input, output);
+      String tailLine = headLine;
+    {
+    if (headLine != null)
+    //If statement to make the recursive calll
+  
+    String headLine = input.readLine();
+    //String to store the head line
+  {
+                                                               throws Exception
+  public static void reverse(BufferedReader input, PrintWriter output) 
+  //The recursive method
+  }//Main
+      output.close();
+      //Close the output
+  
+      reverse(input, output);
+      //Call the method once
+      
+      output = new PrintWriter(new FileWriter(args[1]));
+      input = new BufferedReader(new FileReader(args[0]));
+
+      PrintWriter output = null;
+      BufferedReader input = null;
+      //Handles the input and output files
+  {
+  public static void main(String[] args) throws Exception
+  //Main method that calls the recursive method
+{
+public class ReverseLines
+
+import java.io.*;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import java.io.PrintWriter;
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.File;
+//Program to reverse the lines of a text ile recursively

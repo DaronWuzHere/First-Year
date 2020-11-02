@@ -1,0 +1,5 @@
+#!/bin/bash
+set -v
+java YearsBeforeRetirement 25
+java YearsBeforeRetirement 00
+java YearsBeforeRetirement ten

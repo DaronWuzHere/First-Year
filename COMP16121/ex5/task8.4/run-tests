@@ -1,0 +1,5 @@
+!#/bin/bash
+set -v
+java DivideCake4 4 8 12 16
+java DivideCake4 5 10 15 20
+java DivideCake4 7 8 9 10
